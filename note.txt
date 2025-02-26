@@ -1,0 +1,14 @@
+web has tone pink all element border radius 5px
+header: logo, search box, menu, btn pink(text:your recipe box) , avatar circle
+main:
+left (35%) : icon bars text filter 
+    arcodition: type, time, rating (all with arrow)
+    type: 8 checkbox (pink when click) 2col*4row (pan-fried, stir-fried, grilled, roasted, sauteed, baked, steamed, stewed)
+    time: Input range two slider (minute)
+    rating: has 5 rows with checkbox first, and 5 star to check
+    btn: apply (color:white, bg-color: pink)
+right: 65%
+    h2: Sorry, noresults were found for "cakescascsa"
+    img: center
+    p: we have all your independence day sweets covered.
+    4 btn: type of cake: sweet cake, black cake, pozole verde, healthy food

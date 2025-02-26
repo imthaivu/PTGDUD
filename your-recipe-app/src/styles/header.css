@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    /* background-color: #ff69b4; */
+    border-radius: 5px;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .search-box {
+    margin: 0 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    background: #ddd;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 10px;
+    
+  }
+  .menu li {
+    padding-top: 13px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .header li {
+    list-style: none;
+    
+  }
+  .header nav {
+    font-size: 14px;
+  }
+  
