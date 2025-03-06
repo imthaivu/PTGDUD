@@ -1,0 +1,174 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body{
+  background-color: #fff;
+  height: 100vh;
+}
+
+/* Tag 37 */
+.tag {
+  position: absolute; 
+  top: 477px; 
+  left: 711px; 
+  width: 457px; 
+  height: 36px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  font-family: Manrope; /* Body */
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  opacity: 1; 
+}
+/* Tag 37 - Item */
+.tag .tag-item {
+  height: 36px; 
+  padding-left: 9px; 
+  padding-right: 9px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border-radius: 18px; 
+}
+.tag .tag-item > * {
+  padding-left: 3px; 
+  padding-right: 3px; 
+}
+/* Tag item 1 */
+.tag .tag-item:nth-child(1) {
+  font-family: Manrope; 
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  background: #FEF0F5FF; /* primary-100 */
+  border-color: #00000000; /* transparent */
+}
+/* Tag item 1 - Pressed */
+.tag .tag-item:nth-child(1):hover {
+  color: #F44B87FF; /* primary-500 */
+  background: #FBC8DAFF; /* primary-200 */
+}
+/* Tag item 1 - Pressed */
+.tag .tag-item:nth-child(1):hover:active {
+  color: #F44B87FF; /* primary-500 */
+  background: #F99FBEFF; /* primary-300 */
+}
+/* Tag item 1 - Pressed */
+.tag .tag-item:nth-child(1):disabled {
+  color: #F44B87FF; /* primary-500 */
+  background: #FEF0F5FF; /* primary-100 */
+}
+/* Tag item 2 */
+.tag .tag-item:nth-child(2) {
+  font-family: Manrope; 
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  background: #F5F0FEFF; /* tertiary3-100 */
+  border-color: #00000000; /* transparent */
+}
+/* Tag item 2 - Pressed */
+.tag .tag-item:nth-child(2):hover {
+  color: #854EF4FF; /* tertiary3-500 */
+  background: #D9C8FBFF; /* tertiary3-200 */
+}
+/* Tag item 2 - Pressed */
+.tag .tag-item:nth-child(2):hover:active {
+  color: #854EF4FF; /* tertiary3-500 */
+  background: #BD9FF9FF; /* tertiary3-300 */
+}
+/* Tag item 2 - Pressed */
+.tag .tag-item:nth-child(2):disabled {
+  color: #854EF4FF; /* tertiary3-500 */
+  background: #F5F0FEFF; /* tertiary3-100 */
+}
+/* Tag item 3 */
+.tag .tag-item:nth-child(3) {
+  font-family: Manrope; 
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  background: #FEF0F5FF; /* primary-100 */
+  border-color: #00000000; /* transparent */
+}
+/* Tag item 3 - Pressed */
+.tag .tag-item:nth-child(3):hover {
+  color: #F44B87FF; /* primary-500 */
+  background: #FBC8DAFF; /* primary-200 */
+}
+/* Tag item 3 - Pressed */
+.tag .tag-item:nth-child(3):hover:active {
+  color: #F44B87FF; /* primary-500 */
+  background: #F99FBEFF; /* primary-300 */
+}
+/* Tag item 3 - Pressed */
+.tag .tag-item:nth-child(3):disabled {
+  color: #F44B87FF; /* primary-500 */
+  background: #FEF0F5FF; /* primary-100 */
+}
+/* Tag item 4 */
+.tag .tag-item:nth-child(4) {
+  font-family: Manrope; 
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 400; 
+  background: #EEFCFFFF; /* tertiary2-100 */
+  border-color: #00000000; /* transparent */
+}
+/* Tag item 4 - Pressed */
+.tag .tag-item:nth-child(4):hover {
+  color: #006B85FF; /* tertiary2-750 */
+  background: #8BE8FFFF; /* tertiary2-300 */
+}
+/* Tag item 4 - Pressed */
+.tag .tag-item:nth-child(4):hover:active {
+  color: #006B85FF; /* tertiary2-750 */
+  background: #08CEFFFF; /* tertiary2-550 */
+}
+/* Tag item 4 - Pressed */
+.tag .tag-item:nth-child(4):disabled {
+  color: #006B85FF; /* tertiary2-750 */
+  background: #EEFCFFFF; /* tertiary2-100 */
+}
