@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name":"pizza 1",
+        "image":"./piza.jpg",
+        "price":"150d",
+        "description":"piza1 ngon"
+    
+
+    },
+    {
+        "id":2,
+        "name":"pizza 2",
+        "image":"./piza.jpg",
+        "price":"150d",
+        "description":"piza2 ngon"
+    
+
+    }
+]
