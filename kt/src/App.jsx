@@ -74,28 +74,8 @@ export default App;
 
 // // Bước 2 + 9: feat: display product list & refactor to separate ProductItem
 // // src/components/ProductList.jsx
-// import ProductItem from "./ProductItem";
 
-// export default function ProductList({ products, onDelete }) {
-//   return (
-//     <div className="space-y-2">
-//       {products.map((p) => (
-//         <ProductItem key={p.id} product={p} onDelete={onDelete} />
-//       ))}
-//     </div>
-//   );
-// }
 
 // // Bước 9: refactor: separate the ProductItem component
 // // src/components/ProductItem.jsx
-// export default function ProductItem({ product, onDelete }) {
-//   return (
-//     <div className="flex justify-between border p-2 items-center">
-//       <span>{product.name}</span>
-//       <span>${product.price}</span>
-//       <span>{product.category}</span>
-//       <span>In stock: {product.inventory}</span>
-//       <button onClick={() => onDelete(product.id)} className="text-red-600">Delete</button>
-//     </div>
-//   );
-// }
+
