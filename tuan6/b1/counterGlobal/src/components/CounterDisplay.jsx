@@ -5,8 +5,7 @@ function CounterDisplay() {
   const count = useRecoilValue(counterState)
 
   return (
-    <section className="card">
-      <h2>Component A</h2>
+    <section >
       <p>Count hiện tại: {count}</p>
     </section>
   )

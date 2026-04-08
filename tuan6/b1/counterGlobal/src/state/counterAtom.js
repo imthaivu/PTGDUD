@@ -1,7 +1,9 @@
-import { atom } from 'recoil'
+import {atom} from 'recoil'
 
 export const counterState = atom({
-  key: 'counterState',
-  default: 0,
+  key:'counterState',
+  default:0
 })
+
+
 
